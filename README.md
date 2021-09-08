@@ -21,10 +21,12 @@
 
 ### Substrate
 
+
+- [Substrate](https://substrate.dev/en/)
 - [All Substrate Tutorials](https://substrate.dev/en/tutorials) - only worry about these two for now
   - [Create Your First Substrate Chain](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/): need Rust installed but no Rust experiencez
   - [Add a Pallet to Your Runtime](https://substrate.dev/docs/en/tutorials/add-a-pallet/): slightly more advanced
-- [Substrate Kitties](https://substrate.dev/substrate-how-to-guides/docs/tutorials/Kitties/overview): Build Cryptokitties on Substrate. Really in depth, probably take 10 hours to do but this is the core of what we would be doing: building a pallet for Substrate.
+- [Substrate Kitties](https://substrate.dev/substrate-how-to-guides/docs/tutorials/Kitties/overview): Build Cryptokitties on Substrate. Really in depth, probably 5-10 hours to do but this is the core of what we would be doing: building a pallet for Substrate.
 
 ### Rust
 
