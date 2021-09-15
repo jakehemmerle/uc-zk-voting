@@ -5,7 +5,7 @@
 ### Team Members
 
 - Jake Hemmerle (CS): hemmerjb@mail.uc.edu
-- Trent Meyer (CS)
+- Trent Meyer (CS): meyer2tt@mail.uc.edu
 - Brandon Spears (CS)
 
 ### Team Interests
