@@ -13,11 +13,15 @@
 - Cryptography/Math
 - Rust
 
-### Project
+## Project Info
 
 - [On-chain Quadratic Funding](https://github.com/w3f/Grants-Program/blob/master/rfps/on-chain-quadratic-funding.md)
 
-## Resources for learning
+### Related
+
+## Resources to support development
+
+Milestone 1: <https://github.com/w3f/Grants-Program/pull/232>
 
 ### Substrate
 
