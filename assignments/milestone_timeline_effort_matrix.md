@@ -12,7 +12,7 @@ We are going to give timeline based on weeks of the spring semester. Week 1 bein
   - Timeline: (Week 9 - 11)
   - Description: Provide a way for projects to onboard and recieve funding from a pool of funds based on votes.
 4. UI
-  - Tmeline: (Week 11 - 12)
+  - Timeline: (Week 11 - 12)
   - Description: Design an interface for users to vote and onboard projects (with PolkadotJS)
   
 
