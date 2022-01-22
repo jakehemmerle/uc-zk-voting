@@ -112,28 +112,28 @@ Note that some of these categories may be inappropriate for your project and may
 - T1.9 Unit
 
 
-## System Tests (SYS)
+## System Tests (SYS) (Brandon)
 ### SYS1. Stale votes ignored (voting with old key)
-- T1.2 {purpose}
+- T1.2 Ensure that a vote from an old key is not counted
 - T1.3 Make a vote on entity 1, change keys as that user, make a vote on entity 2, ensure only the second vote was counted.
-- T1.4 Inputs: 
-- T1.5 Output: 
-- T1.6 {normal/abnormal/boundary case indication}
-- T1.7 {blackbox/whitebox test indication}
-- T1.8 {functional/performance test indication}
-- T1.9 {unit/integration test indication}
+- T1.4 Inputs: Cryptographically signed message with an old key
+- T1.5 Output: Voting results with the vote not counted
+- T1.6 Normal
+- T1.7 Whitebox
+- T1.8 Functional
+- T1.9 Unit
 
 ### SYS2. Voting with another users key doesn't work
-- T1.2 {purpose}
-- T1.3 {description}
+- T1.2 Edge case to prevent malicious activity
+- T1.3 Ensure that if a user knows another users key they can't vote on their behalf
 - T1.4 Inputs: 
 - T1.5 Output: 
-- T1.6 {normal/abnormal/boundary case indication}
-- T1.7 {blackbox/whitebox test indication}
-- T1.8 {functional/performance test indication}
-- T1.9 {unit/integration test indication}
+- T1.6 Normal
+- T1.7 Whitebox
+- T1.8 Functional
+- T1.9 Unit
 
-## Crypto Tests (CO)
+## Crypto Tests (CO) (Jake)
 
 ### CO1. ECDH works for generating shared key
 - T1.2 {purpose}
