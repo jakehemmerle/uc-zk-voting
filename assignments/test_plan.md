@@ -1,20 +1,7 @@
 # Part I. Description of Overall Test Plan
+We are trying to complete a comprehensive testing plan. The idea is to first test the voting process from an outside perspective. Make sure that a user implementing our module can use the functions properly. Afterwards we want to move forward and test that the internal state is kept properly. Using that, we will ensure that the system can not be taken advantage of and used for malicious purposes.
 
 # Part II. Test Case Descriptions
-
-List a series of 10-25 tests for validating your project outcomes. For each test case provide the following:
-
-1. test case identifier (a number or unique name)
-2. purpose of test
-3. description of test
-4. inputs used for test
-5. expected outputs/results
-6. normal/abnormal/boundary case indication
-7. blackbox/whitebox test indication
-8. functional/performance test indication
-9. unit/integration test indication
-Note that some of these categories may be inappropriate for your project and may be omitted if you can justify doing so. For items 6-9, only one term should apply.
-
 ## Voting Process Tests (VP)
 
 ### VP1. Begin voting process
