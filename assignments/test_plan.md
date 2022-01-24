@@ -32,8 +32,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that the voting process stops once a predefined block height is met
 - T1.3 After the voting process has already begun, we will know the block height that the voting should stop at. Once that block height is met we expect to see a change made on-chain to show that voting can no longer continue.
-- T1.4 Inputs: Nothing?
-- T1.5 Output: New block?
+- T1.4 Inputs: previously defined block height
+- T1.5 Output: results
 - T1.6 Normal
 - T1.7 Blackbox
 - T1.8 Functional
@@ -43,8 +43,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that the results of the voting process are visible to users
 - T1.3 Once the predetermined block height is met and the voting has stopped, we expect to see the results of the voting process to be posted shortly after.
-- T1.4 Inputs: Nothing?
-- T1.5 Output: New block?
+- T1.4 Inputs: null
+- T1.5 Output: voting results
 - T1.6 Normal
 - T1.7 blackbox
 - T1.8 Functional
@@ -80,8 +80,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that a user is added to the state tree after they sign up.
 - T1.3 We will test the sign up function by calling it as a user not currently signed up, and then check that said user was added to the internal state tree and is allowed to vote.
-- T1.4 Inputs: ?
-- T1.5 Output: Nothing
+- T1.4 Inputs: address
+- T1.5 Output: valid voter state change
 - T1.6 Normal
 - T1.7 Whitebox
 - T1.8 Functional
@@ -91,8 +91,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that the voting operator properly handles a change key request
 - T1.3 As a signed up user we will call the change keys function and ensure that we are given a new set of keys unique from the ones we already have. Then we will check that the operator has updated the state tree and the message tree with these changes.
-- T1.4 Inputs: Nothing
-- T1.5 Output: New keys
+- T1.4 Inputs: new keys
+- T1.5 Output: operator sees keychange
 - T1.6 Normal
 - T1.7 Whitebox
 - T1.8 Functional
@@ -102,8 +102,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that a vote from a valid user is properly registered
 - T1.3 As a signed up user we will call the vote function with our valid keys. Then we will check that this vote was added to the message tree
-- T1.4 Inputs: Cryptographically signed message
-- T1.5 Output: ??
+- T1.4 Inputs: signed vote, pub pub key
+- T1.5 Output: valid vote
 - T1.6 Normal
 - T1.7 Whitebox
 - T1.8 Functional
@@ -113,8 +113,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that a vote from a invalid user is properly registered
 - T1.3 As a signed up user we will call the vote function with an invalid set of keys. Then we will check that the vote was added to the message tree
-- T1.4 Inputs: Cryptographicall signed message
-- T1.5 Output: ??
+- T1.4 Inputs: signed vote, wrong pubkey
+- T1.5 Output: invalid vote
 - T1.6 Normal
 - T1.7 Whitebox
 - T1.8 Functional
@@ -135,8 +135,8 @@ Note that some of these categories may be inappropriate for your project and may
 ### SYS2. Voting with another users key doesn't work
 - T1.2 Edge case to prevent malicious activity
 - T1.3 Ensure that if a user knows another users key they can't vote on their behalf
-- T1.4 Inputs: 
-- T1.5 Output: 
+- T1.4 Inputs: pubkey1, signature from pubkey2
+- T1.5 Output: invalid vote result
 - T1.6 Normal
 - T1.7 Whitebox
 - T1.8 Functional
@@ -147,7 +147,7 @@ Note that some of these categories may be inappropriate for your project and may
 ### CO1. ECDH works for generating shared key
 
 - T1.2 Make sure voters and operator can commuincate
-- T1.3 {description}
+- T1.3 Generates a shared key for the voter and operator to communicate
 - T1.4 Inputs: cryptographic randomness for keygen, keypairs from voter and operator
 - T1.5 Output: shared keys match
 - T1.6 Normal
