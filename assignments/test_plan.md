@@ -21,8 +21,8 @@ Note that some of these categories may be inappropriate for your project and may
 
 - T1.2 Ensure that we can successfully begin the voting process
 - T1.3 This test will call a function in our module to start the voting process. We will then need to check that change was made on-chain to reflect a successful execution of said function.
-- T1.4 Inputs: Blockheight for voting duration, identify operator ?????
-- T1.5 Output: New block added signifying the beginning of the voting process
+- T1.4 Inputs: Blockheight for voting duration, identify operator
+- T1.5 Output: New voting session (new tx on-chain)
 - T1.6 Normal
 - T1.7 Blackbox
 - T1.8 Functional
