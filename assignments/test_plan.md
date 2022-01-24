@@ -155,8 +155,6 @@ We are trying to complete a comprehensive testing plan. The idea is to first tes
 
 # Part III. Test Case Matrix
 
-Test Case Matrix: summarizes the test case coverage (items 1, 6-9 in a tabular format)
-
 |Test Case Identifier | normal/abnormal/boundary case | blackbox/whitebox test | functional/performance test | unit/integration test|
 |--------------|--------------|-----------------|--------------------|---------------|
 | VP1 | normal | blackbox | functional | integration|
