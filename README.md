@@ -1,30 +1,27 @@
 # pallet-quadratic-funding
 
-## Team Info
+This repo is for our assignments and documentation. Actual code can be found in [pallet-zk-voting](https://github.com/jakehemmerle/pallet-zk-voting)
 
 ### Team Members
 
 - Jake Hemmerle (CS): hemmerjb@mail.uc.edu
 - Trent Meyer (CS): meyer2tt@mail.uc.edu
-- Brandon Spears (CS)
+- Brandon Spears (CS): spearsbp@mail.uc.edu
 
 ### Team Interests
 
 - Cryptography/Math
 - Rust
 
-## Project Info
+### Project Info
 
 - [On-chain Quadratic Funding](https://github.com/w3f/Grants-Program/blob/master/rfps/on-chain-quadratic-funding.md)
-
-### Related
 
 ## Resources to support development
 
 Milestone 1: <https://github.com/w3f/Grants-Program/pull/232>
 
 ### Substrate
-
 
 - [Substrate](https://substrate.dev/en/)
 - [All Substrate Tutorials](https://substrate.dev/en/tutorials) - only worry about these two for now
