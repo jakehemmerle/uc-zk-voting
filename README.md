@@ -2,6 +2,8 @@
 
 This repo is for our assignments and documentation. Actual code can be found in [pallet-zk-voting](https://github.com/jakehemmerle/pallet-zk-voting)
 
+The [User Documentation](https://github.com/jakehemmerle/uc-zk-voting/wiki/User-Documentation) and more can be found on this repos [wiki page](https://github.com/jakehemmerle/uc-zk-voting/wiki)!
+
 ### Team Members
 
 - Jake Hemmerle (CS): hemmerjb@mail.uc.edu
