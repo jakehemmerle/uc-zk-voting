@@ -155,18 +155,20 @@ We are trying to complete a comprehensive testing plan. The idea is to first tes
 
 # Part III. Test Case Matrix
 
-|Test Case Identifier | normal/abnormal/boundary case | blackbox/whitebox test | functional/performance test | unit/integration test|
-|--------------|--------------|-----------------|--------------------|---------------|
-| VP1 | normal | blackbox | functional | integration|
-| VP2 | normal | blackbox | functional | integration|
-| VP3 | normal | blackbox | functional | integration |
-| VP4 | normal | blackbox | functional | integration |
-| SR1 | normal | whitebox | functional | integration |
-| UC1 | normal | whitebox | functional | integration |
-| UC2 | normal | whitebox | functional | integration |
-| UC3 | normal | whitebox | functional | unit |
-| UC4 | normal | whitebox | functional | unit |
-| SYS1 | normal | whitebox | functional | unit |
-| SYS1 | normal | whitebox | functional | unit |
-| CO1 | normal | whitebox | functional | unit |
-| CO2 | normal | whitebox | functional | integration |
+|Test Case Identifier | normal/abnormal/boundary case | blackbox/whitebox test | functional/performance test | unit/integration test | completion |
+|--------------|--------------|-----------------|--------------------|---------------|---------------|
+| VP1 | normal | blackbox | functional | integration | :white_check_mark: |
+| VP2 | normal | blackbox | functional | integration | :white_check_mark: |
+| VP3 | normal | blackbox | functional | integration | :white_check_mark: |
+| VP4 | normal | blackbox | functional | integration | :white_check_mark: |
+| SR1 | normal | whitebox | functional | integration |  |
+| UC1 | normal | whitebox | functional | integration |  |
+| UC2 | normal | whitebox | functional | integration |  |
+| UC3 | normal | whitebox | functional | unit | :white_check_mark: |
+| UC4 | normal | whitebox | functional | unit |  |
+| SYS1 | normal | whitebox | functional | unit |  |
+| SYS1 | normal | whitebox | functional | unit |  |
+| CO1 | normal | whitebox | functional | unit |  |
+| CO2 | normal | whitebox | functional | integration |  |
+
+Note: Due to the project re-work in January 2022, which was approved by our project advisor, a lot of the advanced functionality required for a production ready pallet were not implemented due to time restrictions. Features such as User Signup and Sybil Resistance were put off in favor of completing the Voting Process and implementation of the data structures. This allowed us to finish the project in time for our demonstrations in April 2022.
